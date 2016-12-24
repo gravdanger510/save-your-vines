@@ -27,11 +27,27 @@ wrong, you can safely run the script again. It will pick up where it left off.
    though!
 1. If you renamed the repo to something other than `save-your-vines`, then
    change `baseurl` in `docs/_config.yml` to your new repo name, otherwise the
-   links won't work on GitHub.
+   links won't work on GitHub. If you didn't rename the repo, skip this step.
 1. Commit your changes to Git.
 1. Push to GitHub, which will take at least 10 minutes.
-1. Visit this repo's settings page and scroll down to the "GitHub Pages"
+1. Visit your repo's settings page and scroll down to the "GitHub Pages"
    section. Select "master branch /docs folder" as the source and save.
+
+   ![](https://cloud.githubusercontent.com/assets/257678/21215014/4badb86e-c253-11e6-9ee8-ae7a00b2965d.png)
+
 1. Wait a minute or two then reload the page. In the "GitHub Pages" section
    you'll see a green message with a link to your new blog.
+
+   ![](https://cloud.githubusercontent.com/assets/257678/21215388/c86a17ce-c255-11e6-9a46-ef5439d62ee1.png)
+
 1. You're done!
+
+## Adding new lines
+
+If you've liked some Vines since you last ran the script, run the script again
+and it will create posts for only those new Vines:
+
+    ./did-it-for-the-vine.sh
+
+You can run it as often as you want! And best of all, it won't keep asking for
+your password.
